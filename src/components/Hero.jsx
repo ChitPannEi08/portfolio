@@ -140,7 +140,7 @@ export default function Hero({ onOpenResume, onShowToast }) {
               <div className="avatar-card glass-card">
                 <div className="avatar-image-container">
                   <img 
-                    src="/images/profile.jpg" 
+                    src={`${import.meta.env.BASE_URL}images/profile.jpg`} 
                     alt="Chit Pann Ei - Final-Year ICT Student and Software/Network Engineer"
                     className="avatar-img"
                     width="420"
